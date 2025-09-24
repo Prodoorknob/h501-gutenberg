@@ -12,7 +12,8 @@ h501-gutenberg/
 ├─ tt_gutenberg/
 │  ├─ __init__.py
 │  ├─ authors.py        # public API: list_authors(...)
-│  └─ utils.py       # CSV loaders (local path or URL)
+│  ├─ plots.py          # helper functions to plot the insights
+│  └─ utils.py          # CSV loaders (local path or URL)
 └─ gutenberg.ipynb      # notebook that prints the ordered list and shows a bar plot
 ```
 
@@ -151,4 +152,3 @@ TidyTuesday “Project Gutenberg” week (2025‑06‑03) — CSVs hosted in the
 
 ## License
 
-Add a LICENSE file if you plan to share (MIT suggested). TidyTuesday data is released to the public domain (CC0).
