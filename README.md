@@ -12,7 +12,7 @@ h501-gutenberg/
 ├─ tt_gutenberg/
 │  ├─ __init__.py
 │  ├─ authors.py        # public API: list_authors(...)
-│  └─ io_utils.py       # CSV loaders (local path or URL)
+│  └─ utils.py       # CSV loaders (local path or URL)
 └─ gutenberg.ipynb      # notebook that prints the ordered list and shows a bar plot
 ```
 
